@@ -2,7 +2,7 @@ import java.util.Iterator;
 
 public class ShowOurGroup {
 
-   private static void main (String[] args) {
+   public static void main(String[] args) {
        OurGroup us;
        us = new OurGroup();
        Iterator itr = us.getGroupMembers().iterator();
